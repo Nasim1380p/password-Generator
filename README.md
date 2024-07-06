@@ -1,6 +1,6 @@
 # password-Generator
 
-- [Demo Project](https://nasim1380p.github.io/trick8-chance-round/) 👩‍💻
+- [Demo Project](https://nasim1380p.github.io/password-Generator/) 👩‍💻
 
 
 
