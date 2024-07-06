@@ -1,0 +1,118 @@
+body {
+  width: 100%;
+  background-color: #151414;
+  font-family: serif;
+  overflow: hidden;
+}
+body > header {
+  width: 100%;
+  text-align: center;
+  color: #f7c926;
+  margin-top: 120px;
+}
+body > section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+body > section > div {
+  width: 48%;
+  color: white;
+}
+body > section > div > section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+body > section > div > section > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+body > section > div > section > div:first-of-type {
+  width: 50%;
+}
+body > section > div > section > div:first-of-type > figure {
+  width: 100%;
+  height: 100%;
+}
+body > section > div > section > div:first-of-type > figure > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+body > section > div > section > div:last-of-type {
+  width: 50%;
+}
+body > section > div > section > div:last-of-type > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body > section > div > section > div:last-of-type > div > h4 {
+  color: #f7c926;
+  width: 20%;
+}
+body > section > div > section > div:last-of-type > div > .rangew {
+  width: 75%;
+  height: 5px;
+  border: 1px solid #f7c926;
+  border-radius: 5px;
+}
+body > section > div > section > div:last-of-type > div > .rangew > div {
+  transition: 1s;
+  width: 1%;
+  height: 100%;
+  background-color: #f7c926;
+}
+body > section > input {
+  margin-top: 30px;
+  width: 52%;
+  border: 3px solid #f7c926;
+  background-color: #423818;
+  padding: 10px;
+  border-radius: 7px;
+  outline: none;
+  color: #f7c926;
+  font-size: 18px;
+}
+body > section ::-moz-placeholder {
+  color: #f7c926;
+  font-size: 17px;
+}
+body > section :-ms-input-placeholder {
+  color: #f7c926;
+  font-size: 17px;
+}
+body > section ::placeholder {
+  color: #f7c926;
+  font-size: 17px;
+}
+
+.myanime {
+  -webkit-animation: alternate anime1 infinite 1s;
+          animation: alternate anime1 infinite 1s;
+}
+
+@-webkit-keyframes anime1 {
+  from {
+    box-Shadow: 0 0 6px 5px #fcdc66;
+  }
+  to {
+    box-Shadow: 0 0 10px 5px #fcdc66;
+  }
+}
+
+@keyframes anime1 {
+  from {
+    box-Shadow: 0 0 6px 5px #fcdc66;
+  }
+  to {
+    box-Shadow: 0 0 10px 5px #fcdc66;
+  }
+}/*# sourceMappingURL=master.css.map */
